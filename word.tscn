@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdqr30ouyamvg"]
+
+[ext_resource type="PackedScene" uid="uid://ceu2ma76byaa4" path="res://character_body_2d.tscn" id="1_jknc1"]
+[ext_resource type="PackedScene" uid="uid://0r5npkf6wyn3" path="res://player.tscn" id="2_tgqma"]
+
+[node name="word" type="Node2D"]
+
+[node name="StaticBody2D" parent="." instance=ExtResource("1_jknc1")]
+position = Vector2(522, 498)
+rotation = -0.00169687
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_tgqma")]
+position = Vector2(592, 284)
